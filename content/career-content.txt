@@ -1,0 +1,43 @@
+# Chronological professional matrix — sourced from applicant CV
+# Lines starting with # are comments. Section headers use === NAME ===
+
+=== CAREER_MATRIX ===
+coordLabel=CHRONOLOGICAL PROFESSIONAL MATRIX [SHEET 3]
+subtitle=Industrial history and major team coordination tracks:
+
+[entry]
+title=Senior Commissioning Engineer
+org=SOMA TECHNICAL SDN BHD
+location=SELANGOR, MALAYSIA
+period=2021 - PRESENT
+- Leading Green Building Index (GBI) Commissioning Verification Assessments (CVA) & Recertification & Verification Assessments (RVA) on mechanical and HVAC system performance indices.
+- Developing complete systems manuals providing operating staff detailed guidelines to understand and run commissioned cooling systems at top efficiency.
+- Conducting rigorous commissioning design reviews during detailed and tender design stages, checking systems layout for GBI score criteria.
+- Executing Monitor-Based Commissioning and Building Envelope Commissioning at premier green developments.
+
+[entry]
+title=Lead R&D Engineer / Project Engineer / Application Engineer
+org=TRUWATER COOLING TOWER SDN BHD
+location=SELANGOR, MALAYSIA
+period=2013 - 2021
+- Led mechanical design and construction management of custom cooling systems, including the massive 600MW coal-fired Power Plant in Thailand.
+- Performed detailed plume abatement calculations and multi-phase Computational Fluid Dynamics (CFD) with Solidworks Flow Simulation tools.
+- Pioneered development of closed-circuit cooling tower models certified with international Cooling Technology Institute (CTI) standards.
+- Ensured compliance for MyHijau Certification, Singapore Green Building Product (SGBC) credentials, FM Approvals, and ISO 9001/14001.
+
+[entry]
+title=AutoCAD Draftsman
+org=KYLSON TECHNOLOGIES SDN BHD
+location=SELANGOR, MALAYSIA
+period=2012 - 2013
+- Produced comprehensive engineering drawings of pipe coating systems using high-precision AutoCAD.
+- Prepared detailed environmental compliance audit checklists based on the Environmental Quality Act 1974 (DOE Malaysia).
+
+[entry]
+title=Engineering Intern
+org=PANASONIC HA AIR-CONDITIONING, SEALINK ENGINEERING, PUNCAK GENERASI
+location=SARAWAK & SELANGOR, MALAYSIA
+period=SUMMER INTERNSHIPS (2010 - 2012)
+- Installed prototype AC units for quality and durability tests (Panasonic Air-Cond R&D).
+- Assisted supervisor with testing and commissioning of hulling, piping, and mechanical steering on vessels (Sealink Engineering).
+- Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines (Puncak Generasi).

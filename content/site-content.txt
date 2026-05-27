@@ -1,0 +1,110 @@
+# Portfolio site copy — edit this file, save, and the dev server will reload.
+# Lines starting with # are comments. Section headers use === NAME ===
+
+=== IDENTITY ===
+name=Ir. Ts. Sam Sham
+nameZh=覃建栋
+titles=MECHANICAL | CFD | COMMISSIONING | AI DATA SCIENTIST
+status=ONLINE // OPEN TO COLLABORATION
+location=Kuala Lumpur, MY
+systemId=SYS.LOC // I.AM.SAM
+
+=== CONTACT ===
+email=zdsham@gmail.com
+phone=+6 016 987 2692
+subject=Engineering collaboration inquiry
+linkedin=https://www.linkedin.com/in/sam-sham/
+
+=== HERO ===
+coordLabel=AGENT // PROFESSIONAL MANDATE
+headline=Where mechanical engineering meets machine intelligence.
+body=Mechanical engineer and AI practitioner with 13+ years bridging cooling design, building commissioning, and applied machine learning — High performance building and low-carbon buildings powered by data-driven decisions.
+
+=== PORTRAITS ===
+/assets/portraits/portrait-1.png
+/assets/portraits/portrait-2.png
+/assets/portraits/portrait-3.png
+/assets/portraits/portrait-4.png
+/assets/portraits/portrait-5.png
+
+=== CREDENTIALS ===
+coordLabel=CRED // CONSOLIDATED CREDENTIALS
+
+[column]
+ACCREDITATIONS
+B.Eng. Mechanical Engineering
+Ir. (Professional Engineer) — BEM
+Ts. (Professional Technologist) — MBOT
+iCxS Commissioning Specialist — MASHRAE
+
+
+INDUSTRY TENURE
+13+ Years Experience in Cooling Tower Thermal Design & Project Delivery
+
+[column]
+DIGITAL SPECIALIZATION
+Data Architecture | Machine Learning | Applied AI Engineering
+
+COMMISSIONING
+GBI & LEED Green Building CxA Capabilities
+
+FOCUS DOMAIN
+AI + Data Scientist Engineering
+
+=== EXPERTISE ===
+coordLabel=EXPERTISE VECTORS [SHEET 2]
+subtitle=Engineering specialities and automated deployment capabilities.
+visual=/assets/roles/expertise-vectors.png
+
+- Computational Fluid Dynamics (CFD) & Airflow Simulation
+- Cooling Tower Thermal Design & Performance Optimization
+- Building HVAC, Hydronics & Energy System Optimization
+- Custom LLM Deployment & Agentic Knowledge Bases
+- Workflow Automation with Agentic AI Operating Systems
+- Green Building / Product Performance, Verification & Compliance
+
+=== ROLES ===
+coordLabel=ROLES // SPECIALIZED EXPERTISE DOMAINS
+
+[role]
+id=ROLE_01
+cls=CLASS // TECHN_DOM
+title=MECHANICAL ENGINEERING / R&D
+desc=- Deep thermodynamic design specializing in cooling tower sizing, water-rejection mechanics, and chiller loops optimization.\n- Delivered a mega-scale cooling tower package for Alstom–Marubeni's 600 MW supercritical lignite-fired power plant in Thailand — from client coordination through performance acceptance.\n- Built automated production dashboards that convert factory telemetry into real-time operational insight.
+tags=Cooling Tower Sizing | Hydronics | CFD | Project Management | Thermal Performance Testing | Product Certification | ISO 14001 | SolidWorks / 3D Modeling
+img=/assets/roles/mechanical-engineering.png
+align=left
+
+[role]
+id=ROLE_02
+cls=CLASS // GBI_LEED
+title=SUSTAINABILITY & COMMISSIONING
+desc=- Rigorous green building commissioning process for GBI and LEED certified buildings — closing the gap between design intent and operational reality.\n- Ensuring right low-emission building design strategies, maximize mechanical energy savings, and establish baseline model & performance audits.
+tags=GBI Commissioning | LEED Commissioning | Energy & IAQ | Water Efficiency | Measurement & Verification | Building Performance Verification
+img=/assets/roles/sustainability-commissioning.png
+align=right
+
+[role]
+id=ROLE_03
+cls=CLASS // ML_OPS
+title=AI DATA SCIENTIST
+desc=- Python-first practitioner translating engineering domain knowledge into production Machine Learning pipelines, predictive models, and decision-grade dashboards.\n- Deploy agentic AI tooling and custom LLM workflows that compress weeks of wrok-flow and analysis into hours.
+tags=MLOps | Python | Predictive Modeling | LLM Engineering | Agentic AI | Claude Code | Google Cloud | API Deployment | Insightful Dashboards
+img=/assets/roles/ai-data-scientist.png
+align=left
+
+[role]
+id=ROLE_04
+cls=CLASS // COSM_RECON
+title=AMATEUR ASTRONOMER | ASTRONOMY & ASTROPHYSICS
+desc=- Leveraging first-principles physical thinking.\n- Active in amateur astronomy, patient in science and teaching, applying mechanical technical patterns to optical systems.\n- Joy of looking up.
+tags=Celestial Mechanics | First-Principles | Science & Physics | Star-Finder Astronomical Society 
+img=/assets/roles/astronomy-astrophysics.png
+align=right
+
+=== FOOTER ===
+coordLabel=SECURE COMMUNICATION GATEWAY
+headline=INITIATE SYSTEM INTEGRATION
+body=Looking to connect, collaborate, deploy AI agents to automate workflows and data analytics within your corporate and building operations? Let's connect.
+ctaLabel=zdsham@gmail.com
+ack=© Eng Office. Kuala Lumpur, Malaysia. Scope: Global Consulting.

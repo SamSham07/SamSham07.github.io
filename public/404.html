@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting…</title>
+    <!--
+      GitHub Pages SPA fallback (rafrex/spa-github-pages technique).
+      GH Pages serves this file for any unknown path. We rewrite the URL
+      so the SPA can pick it up from `index.html`. `pathSegmentsToKeep = 1`
+      keeps the `/MyProfile/` project segment.
+    -->
+    <script>
+      (function () {
+        var pathSegmentsToKeep = 1
+        var l = window.location
+        l.replace(
+          l.protocol +
+            '//' +
+            l.hostname +
+            (l.port ? ':' + l.port : '') +
+            l.pathname
+              .split('/')
+              .slice(0, 1 + pathSegmentsToKeep)
+              .join('/') +
+            '/?/' +
+            l.pathname
+              .slice(1)
+              .split('/')
+              .slice(pathSegmentsToKeep)
+              .join('/')
+              .replace(/&/g, '~and~') +
+            (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') +
+            l.hash,
+        )
+      })()
+    </script>
+  </head>
+  <body></body>
+</html>
