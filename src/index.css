@@ -1468,8 +1468,8 @@ html[data-pixel-mode='true'] .footer-coord::before { background: #fff; transform
   align-items: flex-end;
   justify-content: flex-end;
   flex-wrap: nowrap;
-  gap: 0.25rem;
-  width: min(100%, 320px);
+  gap: 0.35rem;
+  width: min(100%, 460px);
   max-width: 100%;
   overflow: hidden;
   flex-shrink: 0;
@@ -1550,25 +1550,25 @@ html[data-pixel-mode='true'] .contact-btn {
 html[data-pixel-mode='true'] .footer-meta { color: #aaa; }
 
 .footer-glyph-img {
-  height: 132px;
+  height: 176px;
   width: auto;
-  max-width: 100%;
+  max-width: none;
   object-fit: contain;
   object-position: bottom center;
   display: block;
-  flex-shrink: 1;
+  flex-shrink: 0;
 }
 
 .footer-glyph-img--green {
-  height: 120px;
+  height: 160px;
 }
 
 .footer-glyph-img--telescope {
-  height: 126px;
+  height: 168px;
 }
 
 .footer-glyph-img--coding {
-  height: 132px;
+  height: 176px;
 }
 
 @media (max-width: 820px) {
@@ -1593,7 +1593,7 @@ html[data-pixel-mode='true'] .footer-meta { color: #aaa; }
   .footer-glyph-img--green,
   .footer-glyph-img--telescope,
   .footer-glyph-img--coding {
-    height: 120px;
+    height: 140px;
   }
 }
 
