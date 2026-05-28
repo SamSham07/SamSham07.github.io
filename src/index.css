@@ -126,7 +126,7 @@ html[data-theme='dark']:not([data-cli-mode='true']) .site-titles {
 }
 
 html[data-theme='dark']:not([data-cli-mode='true']) .site-titles .sep {
-  color: #64748b;
+  color: #000;
 }
 
 html[data-theme='dark']:not([data-cli-mode='true']) .portrait-inner {
@@ -212,7 +212,7 @@ html[data-theme='claude']:not([data-cli-mode='true']) .site-titles {
 }
 
 html[data-theme='claude']:not([data-cli-mode='true']) .site-titles .sep {
-  color: #9A8F85;
+  color: #000;
 }
 
 html[data-theme='claude']:not([data-cli-mode='true']) .portrait-inner {
@@ -594,7 +594,7 @@ html[data-pixel-mode='true'] .site-name {
 
 .site-titles .sep {
   margin: 0 0.45rem;
-  color: #0000ff;
+  color: #000;
 }
 
 .header-right {
@@ -2218,7 +2218,7 @@ html[data-cli-mode='true'] .name-zh {
 }
 
 html[data-cli-mode='true'] .site-titles .sep {
-  color: var(--muted);
+  color: #000;
 }
 
 html[data-cli-mode='true'] .coord-label {
