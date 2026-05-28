@@ -80,7 +80,7 @@ id=ROLE_02
 cls=CLASS // GBI_LEED
 title=SUSTAINABILITY & COMMISSIONING
 desc=- Rigorous green building commissioning process for GBI and LEED certified buildings — closing the gap between design intent and operational reality.\n- Ensuring right low-emission building design strategies, maximize mechanical energy savings, and establish baseline model & performance audits.
-tags=GBI Commissioning | LEED Commissioning | Energy & IAQ | Water Efficiency | Measurement & Verification | Building Performance Verification
+tags=GBI Commissioning | LEED Commissioning | Energy & IAQ | Water Efficiency | Measurement & Verification | Building Performance Verification | Building Performance OPtimization
 img=/assets/roles/sustainability-commissioning.png
 align=right
 
@@ -88,8 +88,8 @@ align=right
 id=ROLE_03
 cls=CLASS // ML_OPS
 title=AI DATA SCIENTIST
-desc=- Python-first practitioner translating engineering domain knowledge into production Machine Learning pipelines, predictive models, and decision-grade dashboards.\n- Deploy agentic AI tooling and custom LLM workflows that compress weeks of wrok-flow and analysis into hours.
-tags=MLOps | Python | Predictive Modeling | LLM Engineering | Agentic AI | Claude Code | Google Cloud | API Deployment | Insightful Dashboards
+desc=- Python practitioner translating engineering domain knowledge into production Machine Learning pipelines, predictive models, and decision-grade dashboards.\n- Deploy agentic AI tooling and custom LLM workflows that compress weeks of wrok-flow and analysis into hours.
+tags=MLOps | Python | Predictive Modeling | Data Insights | LLM Engineering | Agentic AI | Claude Code | Google Cloud | API Deployment | Insightful Dashboards
 img=/assets/roles/ai-data-scientist.png
 align=left
 
@@ -105,6 +105,6 @@ align=right
 === FOOTER ===
 coordLabel=SECURE COMMUNICATION GATEWAY
 headline=INITIATE SYSTEM INTEGRATION
-body=Looking to connect, collaborate, deploy AI agents to automate workflows and data analytics within your corporate and building operations? Let's connect.
+body=Looking to connect, collaborate, deploy AI agents to automate workflows&data analytics within your corporate and building operations? Let's connect.
 ctaLabel=zdsham@gmail.com
 ack=© Eng Office. Kuala Lumpur, Malaysia. Scope: Global Consulting.

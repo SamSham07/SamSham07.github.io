@@ -3,7 +3,7 @@
 
 === CAREER_MATRIX ===
 coordLabel=CHRONOLOGICAL PROFESSIONAL MATRIX [SHEET 3]
-subtitle=Industrial history and major team coordination tracks:
+subtitle=A chronological overview of my engineering leadership, sustainable design, and project execution footprint:
 
 [entry]
 title=Senior Commissioning Engineer
@@ -20,17 +20,18 @@ title=Lead R&D Engineer / Project Engineer / Application Engineer
 org=TRUWATER COOLING TOWER SDN BHD
 location=SELANGOR, MALAYSIA
 period=2013 - 2021
-- Led mechanical design and construction management of custom cooling systems, including the massive 600MW coal-fired Power Plant in Thailand.
-- Performed detailed plume abatement calculations and multi-phase Computational Fluid Dynamics (CFD) with Solidworks Flow Simulation tools.
-- Pioneered development of closed-circuit cooling tower models certified with international Cooling Technology Institute (CTI) standards.
-- Ensured compliance for MyHijau Certification, Singapore Green Building Product (SGBC) credentials, FM Approvals, and ISO 9001/14001.
+- Directed mechanical design and construction management for complex custom cooling systems, including a massive 600MW coal-fired Power Plant infrastructure in Thailand.
+- Performed detailed plume abatement calculations and multi-phase Computational Fluid Dynamics (CFD) with Solidworks Flow 
+Simulation tools, aim to optimize cooling performance and water savings.
+- Pioneered development of closed-circuit cooling tower models, successfully achieving international Cooling Technology Institute (CTI) standard certifications.
+- Compliance initiatives by securing MyHijau Certification, Singapore Green Building Product (SGBC) credentials, FM Approvals, and ISO 9001/14001.
 
 [entry]
 title=AutoCAD Draftsman
 org=KYLSON TECHNOLOGIES SDN BHD
 location=SELANGOR, MALAYSIA
 period=2012 - 2013
-- Produced comprehensive engineering drawings of pipe coating systems using high-precision AutoCAD.
+- Prepare high-precision engineering schematics for industrial pipe coating systems, ensuring exacting manufacturing standards using AutoCAD.
 - Prepared detailed environmental compliance audit checklists based on the Environmental Quality Act 1974 (DOE Malaysia).
 
 [entry]
@@ -38,6 +39,6 @@ title=Engineering Intern
 org=PANASONIC HA AIR-CONDITIONING, SEALINK ENGINEERING, PUNCAK GENERASI
 location=SARAWAK & SELANGOR, MALAYSIA
 period=SUMMER INTERNSHIPS (2010 - 2012)
-- Installed prototype AC units for quality and durability tests (Panasonic Air-Cond R&D).
-- Assisted supervisor with testing and commissioning of hulling, piping, and mechanical steering on vessels (Sealink Engineering).
-- Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines (Puncak Generasi).
+- Panasonic R&D: Installed and monitored prototype air-conditioning units for rigorous quality assurance and durability testing.
+- Sealink Engineering: Assisted in the testing and commissioning of critical vessel systems, including hulling, piping, and mechanical steering.
+- Puncak Generasi: Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines

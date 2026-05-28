@@ -16,7 +16,7 @@ export function Footer() {
       <div className="footer-inner">
         <span className="footer-coord">{footer.coordLabel}</span>
         <div className="footer-grid">
-          <div>
+          <div className="footer-main">
             <h2 className="footer-headline">{footer.headline}</h2>
             <p className="footer-body">{footer.body}</p>
             <div className="contact-actions">
@@ -41,8 +41,10 @@ export function Footer() {
             </div>
             <p className="footer-meta">{footer.ack}</p>
           </div>
-          <div className="footer-glyph" aria-hidden="true">
-            <img src={asset('/assets/love_green.png')} alt="" />
+          <div className="footer-glyphs" aria-hidden="true">
+            <img className="footer-glyph-img footer-glyph-img--green" src={asset('/assets/footer-green.png')} alt="" />
+            <img className="footer-glyph-img footer-glyph-img--telescope" src={asset('/assets/footer-telescope.png')} alt="" />
+            <img className="footer-glyph-img footer-glyph-img--coding" src={asset('/assets/footer-coding.png')} alt="" />
           </div>
         </div>
       </div>
