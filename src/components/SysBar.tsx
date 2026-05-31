@@ -19,13 +19,18 @@ export function SysBar({ mode }: SysBarProps) {
       <span className="sys-bar-right">
         <span aria-hidden="true">BUILD // PORTFOLIO.v1</span>
         <span aria-hidden="true">STAMP // {stamp} UTC</span>
-        <span className="status-badge" role="status">
+        <a
+          className="status-badge"
+          href="#contact"
+          title="Jump to contact details"
+          aria-label="Jump to contact details"
+        >
           {mode === 'cli' ? (
             <>AGENT — {identity.status}</>
           ) : (
             <>STATUS — {identity.status}</>
           )}
-        </span>
+        </a>
       </span>
     </div>
   )

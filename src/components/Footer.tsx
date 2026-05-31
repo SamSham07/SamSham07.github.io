@@ -12,7 +12,7 @@ export function Footer() {
   const phoneHref = contact.phone ? phoneTelHref(contact.phone) : ''
 
   return (
-    <footer className="site-footer">
+    <footer id="contact" className="site-footer">
       <div className="footer-inner">
         <span className="footer-coord">{footer.coordLabel}</span>
         <div className="footer-grid">
