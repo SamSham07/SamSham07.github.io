@@ -1,0 +1,79 @@
+# Expert showcase / blog content — edit this file, save, and the dev server reloads.
+# Lines starting with # are comments. Sections use === NAME ===
+# Each [expert] becomes a header tab; each [post] is a blog entry under it.
+
+=== SHOWCASE ===
+coordLabel=SHOWCASE // EXPERT FIELD NOTES
+intro=Working notes, project write-ups, and applied research across four practice domains.
+
+[expert]
+slug=mechanical
+tab=MECH / R&D
+title=MECHANICAL ENGINEERING / R&D
+blurb=Cooling tower thermal design, CFD, and hydronic system optimization.
+
+[post]
+date=2026.05.28
+tag=#cfd
+title=Cooling tower drift modelling with OpenFOAM
+excerpt=A mesh-independence study and how plume re-circulation was predicted before site commissioning.
+
+[post]
+date=2026.03.15
+tag=#thermal
+title=Sizing a 600 MW cooling package — lessons from the field
+excerpt=Notes from the Alstom–Marubeni supercritical lignite plant: client coordination through performance acceptance.
+
+[expert]
+slug=commissioning
+tab=COMMISSIONING
+title=SUSTAINABILITY & COMMISSIONING
+blurb=GBI / LEED green building commissioning, M&V, and building performance verification.
+
+[post]
+date=2026.04.20
+tag=#gbi
+title=Closing the design-intent gap on a GBI project
+excerpt=Field measurement vs. baseline model — where the energy savings actually showed up.
+
+[post]
+date=2026.02.08
+tag=#m&v
+title=Measurement & verification that survives an audit
+excerpt=Building an M&V plan that holds up: baselines, adjustments, and instrumentation you can defend.
+
+[expert]
+slug=ai
+tab=AI SCIENCE
+title=AI DATA SCIENTIST
+blurb=MLOps, Python pipelines, predictive modelling, and agentic AI workflows.
+
+[post]
+date=2026.05.02
+tag=#mlops
+title=From factory telemetry to a live performance dashboard
+excerpt=Pipeline notes: ingest, feature store, and the decision-grade views that replaced weekly manual reports.
+
+[post]
+date=2026.01.30
+tag=#agentic
+title=Compressing a week of analysis into an afternoon
+excerpt=How a custom LLM workflow and agentic tooling reshaped a recurring engineering report.
+
+[expert]
+slug=astronomy
+tab=ASTRONOMY
+title=ASTRONOMY & ASTROPHYSICS
+blurb=Amateur astronomy, optical systems, and first-principles physical thinking.
+
+[post]
+date=2026.04.05
+tag=#optics
+title=Collimating a Newtonian by first principles
+excerpt=Applying mechanical alignment patterns to optical systems — and why patience beats gadgets.
+
+[post]
+date=2026.02.22
+tag=#outreach
+title=The joy of looking up — notes from a public star party
+excerpt=Teaching celestial mechanics with nothing but a green laser and a clear night.

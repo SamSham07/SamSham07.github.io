@@ -21,15 +21,17 @@ export function AppShell() {
       <BlueprintGrid />
       <div className="cli-backdrop" aria-hidden="true" />
       <div className="app-content">
-        <SysBar mode={mode} />
-        <Header
-          mode={mode}
-          theme={theme}
-          nextModeLabel={nextModeLabel}
-          themeToggleLabel={themeToggleLabel}
-          onCycleMode={cycleMode}
-          onToggleTheme={toggleTheme}
-        />
+        <div className="topbar">
+          <SysBar mode={mode} />
+          <Header
+            mode={mode}
+            theme={theme}
+            nextModeLabel={nextModeLabel}
+            themeToggleLabel={themeToggleLabel}
+            onCycleMode={cycleMode}
+            onToggleTheme={toggleTheme}
+          />
+        </div>
         <main>
           <Outlet context={{ mode } satisfies AppShellContext} />
         </main>
