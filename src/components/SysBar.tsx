@@ -18,7 +18,7 @@ export function SysBar({ mode }: SysBarProps) {
       </span>
       <span className="sys-bar-right">
         <span aria-hidden="true">BUILD // PORTFOLIO.v1</span>
-        <span aria-hidden="true">STAMP // {stamp} UTC</span>
+        <span aria-hidden="true">STAMP // {stamp}</span>
         <a
           className="status-badge"
           href="#contact"
