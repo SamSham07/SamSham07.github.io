@@ -42,7 +42,6 @@ title=Engineering Intern
 org=PANASONIC HA AIR-CONDITIONING, SEALINK ENGINEERING, PUNCAK GENERASI
 location=SARAWAK & SELANGOR, MALAYSIA
 period=SUMMER INTERNSHIPS (2010 - 2012)
-duration=2 YEARS
 - Panasonic R&D: Installed and monitored prototype air-conditioning units for rigorous quality assurance and durability testing.
 - Sealink Engineering: Assisted in the testing and commissioning of critical vessel systems, including hulling, piping, and mechanical steering.
 - Puncak Generasi: Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines
