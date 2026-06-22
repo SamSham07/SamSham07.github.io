@@ -1442,6 +1442,61 @@ html[data-pixel-mode='true'] .role-desc { font-size: 0.7rem; line-height: 1.8; }
   gap: 0.4rem;
 }
 
+.role-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-top: 1rem;
+  padding: 0.72rem 1.05rem;
+  min-height: 44px;
+  border: var(--border-w) solid #08182f;
+  background: linear-gradient(135deg, #ff5f90 0%, #ff8b66 48%, #ffd45a 100%);
+  box-shadow: 5px 5px 0 #123b66;
+  color: #ffffff;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  line-height: 1.25;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:
+    transform 140ms ease,
+    box-shadow 140ms ease,
+    filter 140ms ease;
+}
+
+.role-cta::before {
+  content: '';
+  width: 1.08rem;
+  height: 1.08rem;
+  flex: 0 0 auto;
+  border-radius: 3px;
+  background:
+    linear-gradient(#ffffffcc, #ffffffcc) 50% 26% / 70% 2px no-repeat,
+    linear-gradient(90deg, #ffffff00 30%, #ffffffcc 30% 42%, #ffffff00 42% 58%, #ffffffcc 58% 70%, #ffffff00 70%) 50% 68% / 70% 46% no-repeat,
+    #89d7ff;
+  box-shadow: inset 0 0 0 1px #ffffff99;
+}
+
+.role-cta:hover {
+  color: #ffffff;
+  filter: saturate(1.08);
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0 #123b66;
+}
+
+.role-cta:focus-visible {
+  outline: 2px solid #123b66;
+  outline-offset: 3px;
+}
+
+html[data-pixel-mode='true'] .role-cta {
+  font-size: 0.58rem;
+  border-width: 2px;
+  box-shadow: 4px 4px 0 #123b66;
+}
+
 .tag {
   font-family: var(--font-mono);
   font-size: 0.6rem;

@@ -101,6 +101,8 @@ desc=- Leveraging first-principles physical thinking.\n- Active in amateur astro
 tags=Celestial Mechanics | First-Principles | Science & Physics | Star-Finder Astronomical Society 
 img=/assets/roles/astronomy-astrophysics.png
 align=right
+ctaLabel=STAR-FINDER DIY TELESCOPE
+ctaHref=https://samsham07.github.io/Star-FInder_DIY/StarFinder%20DIY%20Telescope.html
 
 === FOOTER ===
 coordLabel=SECURE COMMUNICATION GATEWAY

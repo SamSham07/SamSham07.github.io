@@ -71,6 +71,11 @@ export function RoleCards() {  const { roles } = site
                     <span key={t} className="tag">{t}</span>
                   ))}
                 </div>
+                {role.ctaHref && role.ctaLabel && (
+                  <a className="role-cta" href={role.ctaHref} target="_blank" rel="noreferrer">
+                    {role.ctaLabel}
+                  </a>
+                )}
               </div>
             </div>
           </article>

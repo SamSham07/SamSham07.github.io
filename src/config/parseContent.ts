@@ -39,6 +39,8 @@ export interface SiteConfig {
       tags: string[]
       img: string
       align: 'left' | 'right'
+      ctaLabel?: string
+      ctaHref?: string
     }[]
   }
   footer: {
@@ -183,6 +185,8 @@ function parseRoles(text: string): SiteConfig['roles'] {
       tags: splitList(values.tags ?? ''),
       img: asset(values.img ?? ''),
       align,
+      ctaLabel: values.ctaLabel,
+      ctaHref: values.ctaHref,
     }
   })
 
