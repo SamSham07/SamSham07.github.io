@@ -1318,29 +1318,27 @@ html[data-pixel-mode='true'] .career-bullets li {
   line-height: 1.85;
 }
 
-.university-section {
-  margin-top: 1.25rem;
-  padding-top: 1.15rem;
-  border-top: var(--border-w) solid var(--border);
-}
-
 .university-heading {
-  margin: 0 0 0.85rem;
-  font-family: var(--font-mono);
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
+  margin: 0;
 }
 
 .university-activities {
   display: grid;
-  gap: 0.85rem;
+  gap: 0;
 }
 
 .university-activity {
-  padding: 0.85rem 0.95rem;
-  border: 1px solid var(--border-soft);
-  background: color-mix(in srgb, var(--bg) 92%, var(--bg-cell));
+  padding: 0.85rem 0;
+  border-bottom: 1px dashed var(--border-soft);
+}
+
+.university-activity:first-child {
+  padding-top: 0;
+}
+
+.university-activity:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
 .university-activity-title {

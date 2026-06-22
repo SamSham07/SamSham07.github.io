@@ -50,39 +50,43 @@ export function CareerMatrix({ mode }: CareerMatrixProps) {
               </div>
             </li>
           ))}
-        </ol>
-
-        {university.activities.length > 0 && (
-          <section className="university-section" aria-label="University leadership">
-            <h2 className="university-heading">{university.heading}</h2>
-            <div className="university-activities">
-              {university.activities.map((activity) => (
-                <article key={activity.title} className="university-activity">
-                  <h3 className="university-activity-title">
-                    {activity.title}
-                    {activity.context && (
-                      <span className="university-activity-context"> {activity.context}</span>
-                    )}
-                  </h3>
-                  <ul className="university-bullets">
-                    {activity.bullets.map((bullet) => (
-                      <li key={bullet.text}>
-                        <span>{bullet.text}</span>
-                        {bullet.children.length > 0 && (
-                          <ul>
-                            {bullet.children.map((child) => (
-                              <li key={child}>{child}</li>
-                            ))}
-                          </ul>
+          {university.activities.length > 0 && (
+            <li className="career-entry university-entry">
+              <div className="career-entry-marker" aria-hidden="true" />
+              <div className="career-entry-body card university-entry-body">
+                <div className="career-entry-head university-entry-head">
+                  <h2 className="career-entry-title university-heading">{university.heading}</h2>
+                </div>
+                <div className="university-activities">
+                  {university.activities.map((activity) => (
+                    <article key={activity.title} className="university-activity">
+                      <h3 className="university-activity-title">
+                        {activity.title}
+                        {activity.context && (
+                          <span className="university-activity-context"> {activity.context}</span>
                         )}
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
-        )}
+                      </h3>
+                      <ul className="university-bullets">
+                        {activity.bullets.map((bullet) => (
+                          <li key={bullet.text}>
+                            <span>{bullet.text}</span>
+                            {bullet.children.length > 0 && (
+                              <ul>
+                                {bullet.children.map((child) => (
+                                  <li key={child}>{child}</li>
+                                ))}
+                              </ul>
+                            )}
+                          </li>
+                        ))}
+                      </ul>
+                    </article>
+                  ))}
+                </div>
+              </div>
+            </li>
+          )}
+        </ol>
       </article>
     </section>
   )
