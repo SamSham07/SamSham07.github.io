@@ -16,6 +16,8 @@ interface HeaderProps {
 const tabClass = ({ isActive }: { isActive: boolean }) =>
   isActive ? 'folder-tab is-active' : 'folder-tab'
 
+const SHOW_EXPERT_TABS = false
+
 export function Header({
   mode,
   theme,
@@ -32,11 +34,12 @@ export function Header({
         <NavLink to="/" end className={tabClass}>
           MAIN
         </NavLink>
-        {showcase.experts.map((e) => (
-          <NavLink key={e.slug} to={`/expert/${e.slug}`} className={tabClass}>
-            {e.tab}
-          </NavLink>
-        ))}
+        {SHOW_EXPERT_TABS &&
+          showcase.experts.map((e) => (
+            <NavLink key={e.slug} to={`/expert/${e.slug}`} className={tabClass}>
+              {e.tab}
+            </NavLink>
+          ))}
         <NavLink to="/career" className={tabClass}>
           {mode === 'cli' ? 'CAREER_MATRIX' : 'CAREER MATRIX'}
         </NavLink>
