@@ -6,7 +6,7 @@ interface CareerMatrixProps {
 }
 
 export function CareerMatrix({ mode }: CareerMatrixProps) {
-  const { coordLabel, subtitle, entries } = career
+  const { coordLabel, subtitle, entries, university } = career
 
   return (
     <section className="career-matrix-section" aria-label="Chronological professional matrix">
@@ -48,6 +48,38 @@ export function CareerMatrix({ mode }: CareerMatrixProps) {
             </li>
           ))}
         </ol>
+
+        {university.activities.length > 0 && (
+          <section className="university-section" aria-label="University leadership">
+            <h2 className="university-heading">{university.heading}</h2>
+            <div className="university-activities">
+              {university.activities.map((activity) => (
+                <article key={activity.title} className="university-activity">
+                  <h3 className="university-activity-title">
+                    {activity.title}
+                    {activity.context && (
+                      <span className="university-activity-context"> {activity.context}</span>
+                    )}
+                  </h3>
+                  <ul className="university-bullets">
+                    {activity.bullets.map((bullet) => (
+                      <li key={bullet.text}>
+                        <span>{bullet.text}</span>
+                        {bullet.children.length > 0 && (
+                          <ul>
+                            {bullet.children.map((child) => (
+                              <li key={child}>{child}</li>
+                            ))}
+                          </ul>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
+                </article>
+              ))}
+            </div>
+          </section>
+        )}
       </article>
     </section>
   )

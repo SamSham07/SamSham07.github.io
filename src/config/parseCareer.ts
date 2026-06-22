@@ -6,10 +6,25 @@ export interface CareerEntry {
   bullets: string[]
 }
 
+export interface UniversityActivityBullet {
+  text: string
+  children: string[]
+}
+
+export interface UniversityActivity {
+  title: string
+  context: string
+  bullets: UniversityActivityBullet[]
+}
+
 export interface CareerConfig {
   coordLabel: string
   subtitle: string
   entries: CareerEntry[]
+  university: {
+    heading: string
+    activities: UniversityActivity[]
+  }
 }
 
 function splitSections(raw: string): Map<string, string> {
@@ -77,6 +92,48 @@ function parseEntries(text: string): CareerEntry[] {
   })
 }
 
+function parseActivityBullets(chunk: string): UniversityActivityBullet[] {
+  const bullets: UniversityActivityBullet[] = []
+
+  for (const line of chunk.split('\n')) {
+    const trimmed = line.trim()
+    if (!trimmed || trimmed.startsWith('#')) continue
+
+    if (trimmed.startsWith('-- ')) {
+      const parent = bullets.at(-1)
+      if (parent) parent.children.push(trimmed.slice(3).trim())
+      continue
+    }
+
+    if (trimmed.startsWith('- ')) {
+      bullets.push({ text: trimmed.slice(2).trim(), children: [] })
+    }
+  }
+
+  return bullets
+}
+
+function parseUniversity(text: string): CareerConfig['university'] {
+  const heading = parseKeyValues(text).heading ?? ''
+  const chunks = text
+    .split(/^\[activity\]$/m)
+    .slice(1)
+    .map((chunk) => chunk.trim())
+    .filter(Boolean)
+
+  return {
+    heading,
+    activities: chunks.map((chunk) => {
+      const values = parseKeyValues(chunk)
+      return {
+        title: values.title ?? '',
+        context: values.context ?? '',
+        bullets: parseActivityBullets(chunk),
+      }
+    }),
+  }
+}
+
 export function parseCareerContent(raw: string): CareerConfig {
   const sections = splitSections(raw)
   const body = sections.get('CAREER_MATRIX') ?? ''
@@ -99,5 +156,6 @@ export function parseCareerContent(raw: string): CareerConfig {
     coordLabel: headerKv.coordLabel ?? '',
     subtitle: headerKv.subtitle ?? '',
     entries: parseEntries(entriesBody),
+    university: parseUniversity(sections.get('UNIVERSITY') ?? ''),
   }
 }

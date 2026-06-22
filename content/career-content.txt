@@ -42,3 +42,35 @@ period=SUMMER INTERNSHIPS (2010 - 2012)
 - Panasonic R&D: Installed and monitored prototype air-conditioning units for rigorous quality assurance and durability testing.
 - Sealink Engineering: Assisted in the testing and commissioning of critical vessel systems, including hulling, piping, and mechanical steering.
 - Puncak Generasi: Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines
+
+=== UNIVERSITY ===
+heading=University
+
+[activity]
+title=Project Manager of Miri School Environmental Awareness Programme and Tree Planting
+- Cooperation within:
+-- Miri Port Authority (Director)
+-- Local Agenda 21 of Miri City Council
+-- Curtin Sarawak Campus
+
+[activity]
+title=President of Curtin Taekwondo Club
+- First-degree black belt ranks.
+
+[activity]
+title=Vice President (2010) and IT Officer (2009) of Malaysian Red Crescent VAD-57
+- Led and managed VAD members to achieve the vision and objectives.
+- Led to:
+-- Best VAD Unit 2009 and 2010 in MRC Miri Chapter Level
+-- Curtin Outstanding Community Contribution 2010
+
+[activity]
+title=Committee Leadership Camp for High School Students
+context=(Seeking Love Seeking Talent 3D2N)
+- Liaised with schools for top student recruitment.
+- Managed venue planning and pre-setup for the program.
+
+[activity]
+title=Committee of First Aid and Safety Month 2010 Project Held in Curtin Campus
+- Organized a one-week Health and Safety Exhibition.
+- Invited OHS departments from SHELL, SAMLING GROUP, and PETRONAS to exhibit.
