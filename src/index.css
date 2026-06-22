@@ -1260,6 +1260,24 @@ html[data-pixel-mode='true'] .career-entry-marker {
   color: var(--muted);
 }
 
+.career-period-group {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin-left: auto;
+}
+
+.career-duration {
+  color: var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.62rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+  line-height: 1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
 .career-period {
   font-family: var(--font-mono);
   font-size: 0.6rem;
@@ -1272,9 +1290,21 @@ html[data-pixel-mode='true'] .career-entry-marker {
   white-space: nowrap;
 }
 
+@media (max-width: 560px) {
+  .career-period-group {
+    width: 100%;
+    justify-content: flex-end;
+  }
+}
+
 html[data-theme='dark']:not([data-cli-mode='true']) .career-period {
   background: #e2e8f0;
   color: #0f172a;
+}
+
+html[data-pixel-mode='true'] .career-duration {
+  color: #000;
+  font-size: 0.55rem;
 }
 
 html[data-pixel-mode='true'] .career-period {

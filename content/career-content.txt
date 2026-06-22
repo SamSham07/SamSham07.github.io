@@ -10,6 +10,7 @@ title=Senior Commissioning Engineer
 org=SOMA TECHNICAL SDN BHD
 location=SELANGOR, MALAYSIA
 period=2021 - PRESENT
+duration=5 YEARS
 - Leading Green Building Index (GBI) Commissioning Verification Assessments (CVA) & Recertification & Verification Assessments (RVA) on mechanical and HVAC system performance indices.
 - Developing complete systems manuals providing operating staff detailed guidelines to understand and run commissioned cooling systems at top efficiency.
 - Conducting rigorous commissioning design reviews during detailed and tender design stages, checking systems layout for GBI score criteria.
@@ -20,6 +21,7 @@ title=Lead R&D Engineer / Project Engineer / Application Engineer
 org=TRUWATER COOLING TOWER SDN BHD
 location=SELANGOR, MALAYSIA
 period=2013 - 2021
+duration=8 YEARS
 - Directed mechanical design and construction management for complex custom cooling systems, including a massive 600MW coal-fired Power Plant infrastructure in Thailand.
 - Performed detailed plume abatement calculations and multi-phase Computational Fluid Dynamics (CFD) with Solidworks Flow 
 Simulation tools, aim to optimize cooling performance and water savings.
@@ -31,6 +33,7 @@ title=AutoCAD Draftsman
 org=KYLSON TECHNOLOGIES SDN BHD
 location=SELANGOR, MALAYSIA
 period=2012 - 2013
+duration=1 YEAR
 - Prepare high-precision engineering schematics for industrial pipe coating systems, ensuring exacting manufacturing standards using AutoCAD.
 - Prepared detailed environmental compliance audit checklists based on the Environmental Quality Act 1974 (DOE Malaysia).
 
@@ -39,6 +42,7 @@ title=Engineering Intern
 org=PANASONIC HA AIR-CONDITIONING, SEALINK ENGINEERING, PUNCAK GENERASI
 location=SARAWAK & SELANGOR, MALAYSIA
 period=SUMMER INTERNSHIPS (2010 - 2012)
+duration=2 YEARS
 - Panasonic R&D: Installed and monitored prototype air-conditioning units for rigorous quality assurance and durability testing.
 - Sealink Engineering: Assisted in the testing and commissioning of critical vessel systems, including hulling, piping, and mechanical steering.
 - Puncak Generasi: Labelled electrical switchboard panels, mapped CAD data, and loaded CNC programs for AMADA punch machines

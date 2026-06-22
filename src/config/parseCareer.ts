@@ -3,6 +3,7 @@ export interface CareerEntry {
   org: string
   location: string
   period: string
+  duration: string
   bullets: string[]
 }
 
@@ -87,6 +88,7 @@ function parseEntries(text: string): CareerEntry[] {
       org: values.org ?? '',
       location: values.location ?? '',
       period: values.period ?? '',
+      duration: values.duration ?? '',
       bullets: parseBullets(chunk),
     }
   })

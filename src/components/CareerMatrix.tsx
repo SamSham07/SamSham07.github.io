@@ -37,7 +37,10 @@ export function CareerMatrix({ mode }: CareerMatrixProps) {
                       )}
                     </p>
                   </div>
-                  <span className="career-period">{entry.period}</span>
+                  <div className="career-period-group">
+                    {entry.duration && <span className="career-duration">{entry.duration}</span>}
+                    <span className="career-period">{entry.period}</span>
+                  </div>
                 </div>
                 <ul className="career-bullets">
                   {entry.bullets.map((bullet) => (
